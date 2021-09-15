@@ -6,3 +6,4 @@
 ### Requerimientos
 ##### Necesita tener una GPU, Windows instalado.
 ### Entrenamiento de YOLOv5
+##### Ejecutar el archivo TRAIN_YOLO_V5_ON_YOUR_CUSTOM_DATASET.ipynb
