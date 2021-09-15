@@ -5,3 +5,4 @@
 ##### El trabajo ha sido desarrollado bajo el lenguaje de programación Python haciendo uso de las librerías de Opencv y PyTorch v1.7.1.
 ### Requerimientos
 ##### Necesita tener una GPU, Windows instalado.
+### Entrenamiento de YOLOv5
