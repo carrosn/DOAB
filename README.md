@@ -14,5 +14,5 @@
 ##### por model =torch.hub.load('yolov5', 'custom', path='yolov5//runs//train//exp2//weights//best.pt', source='local') 
 #### ejecutar el archivo TFMV2.py
 ### Notas: 
-##### los videos NE1.mp4 y NE1.mp4 están grabado a una resolución de 1280x720 por lo que es necesario activar en el archivo TFMV2.py la línea
+##### los videos NE1.mp4 y NE1.mp4 están grabados a una resolución de 1280x720 por lo que es necesario activar en el archivo TFMV2.py la línea
 ##### frame=cv2.resize(frame,(1280,720),fx=0,fy=0, interpolation = cv2.INTER_CUBIC)
