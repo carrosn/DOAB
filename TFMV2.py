@@ -32,7 +32,7 @@ track_masterTemp=[]
 top_contour_dict = defaultdict(int)
 top_contour_dictTemp = defaultdict(int)
 obj_detected_dict = defaultdict(int)
-clases=utils.load_classes("D://Personal//personal//PERSONAL//PERSONAL//masterIA//ASIGNATURAS//TFM//TFM//Prototipos//coco.names")
+clases=utils.load_classes("coco.names")
 frameno=0
 consecutiveframe=20
 conse=250
@@ -42,8 +42,8 @@ print(cv2.__version__)
 print(clases)
 model = torch.hub.load('ultralytics/yolov5', 'yolov5x') #carga del modelo preeentrenado desde ultralytics
 #captura de la secuencia de video
-cap = cv2.VideoCapture('D://Personal//personal//PERSONAL//PERSONAL//masterIA//ASIGNATURAS//TFM//TFM//Prototipos//ABODA-master//video9.avi')
-#cap = cv2.VideoCapture('D://Personal//personal//PERSONAL//PERSONAL//masterIA//ASIGNATURAS//TFM//TFM//Prototipos//DATA_SET_NEW//AVSS_AB_Easy_Divx.mp4')
+cap = cv2.VideoCapture('data//video1.avi')
+#cap = cv2.VideoCapture('data//AVSS_AB1.mp4')
 #captura tiempo inicial de procesamiento
 t_start = datetime.datetime.now()
 print(t_start)
